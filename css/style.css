@@ -17,3 +17,49 @@
 /* Colores */
 
 /* ******************************** */
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1{
+  margin-bottom: 20px;
+}
+
+.tables{
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.tables__item{
+  width: calc(20% - 8px);
+  background-color: blueviolet;
+  border-radius: 0.5rem;
+}
+
+.tables__title{
+  color: white;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.tables__list{
+  padding: 0;
+}
+
+.list__item{
+  color: white;
+  font-size: 15px;
+  margin-bottom: 5px;
+
+}
+
